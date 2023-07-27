@@ -38,8 +38,8 @@ while True:
     print("Entering login credentials...")
     username_input = driver.find_element(By.NAME, "name")
     password_input = driver.find_element(By.NAME, "pswd")
-    username_input.send_keys("userAdmin")
-    password_input.send_keys("5827063431")
+    username_input.send_keys("AdminGPON")
+    password_input.send_keys("ALC#FGU")
 
     print("Logging in...")
     password_input.send_keys(Keys.RETURN)
