@@ -1,4 +1,4 @@
-![Logo](https://www.nokia.com/themes/custom/onenokia_reskin/logo.svg)
+![Logo](Nokia_wordmark.svg.png)
 
 # NokiaGPON Restarter
 A Simple Python Script that restarts your router until it gets a specific IP
