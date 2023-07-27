@@ -6,8 +6,6 @@ A Simple Python Script that restarts your router until it gets a specific IP
 
 
 
-
-
 ## Installation
 
 Install by cloning project or downloading source code
@@ -46,16 +44,19 @@ Honestly I don't think it will as these restarts are not logged as far as I've s
 There are optimizations that are yet to be done such as ease of configuration. Feel free to fork and do pull requests.
 
 
-## License
-
-[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
-
 ## Used By
+
+This is tested on:
+- G-240W-F
 
 This project may be used in the following countries as they commonly use these modems:
 
 - Morocco
 - Tunisia
 - Algeria
+
+
+## License
+
+[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
