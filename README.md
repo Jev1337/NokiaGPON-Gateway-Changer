@@ -11,7 +11,7 @@ A Simple Python Script that turns WAN on and off for your router until it gets a
 Install by cloning project or downloading source code
 
 ```bash
-  git clone https://github.com/Jev1337/NokiaGPON-Restarter.git
+  git clone https://github.com/Jev1337/NokiaGPON-Gateway-Changer.git
 ```
 
 
@@ -37,6 +37,7 @@ In some countries, routing differs from an IP to another and some people have be
 #### Does this get me in trouble with the ISP?
 
 Honestly I don't think it will as these restarts are not logged as far as I've seen, but you can always be careful, so at your own risk you use this script.
+Although there are some limitations imposed by ISP on how many IPs you can obtain in 10 minutes like mine. So use this carefully and whenever needed only!
 
 
 ## Optimizations
