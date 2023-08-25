@@ -1,6 +1,6 @@
 ![Logo](Nokia_wordmark.svg.png)
 
-# NokiaGPON Restarter
+# NokiaGPON Gateway Changer
 A Simple Python Script that turns WAN on and off for your router until it gets a specific IP
 
 
