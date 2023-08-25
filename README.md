@@ -1,7 +1,7 @@
 ![Logo](Nokia_wordmark.svg.png)
 
 # NokiaGPON Restarter
-A Simple Python Script that restarts your router until it gets a specific IP
+A Simple Python Script that turns WAN on and off for your router until it gets a specific IP
 
 
 
@@ -54,6 +54,7 @@ This project may be used in the following countries as they commonly use these m
 - Morocco
 - Tunisia
 - Algeria
+- India
 
 
 ## License
