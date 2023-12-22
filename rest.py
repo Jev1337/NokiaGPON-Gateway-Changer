@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 cooldown = 10 # cooldown in minutes
 cooldown_attempts = 3 # attempts before cooldown
 target_prefix = "197.15" # target prefix to get
-i = 0
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
@@ -48,15 +47,16 @@ def main():
         exit()
 
     init()
+    i = 0
     while True:
         i += 1
         if i == cooldown_attempts+1:
             print("Waiting " + str(cooldown) + " minute cooldown issued by ISP...")
             time.sleep(cooldown * 60)
             #if page url is http://192.168.1.254/ then we log in again
-            if driver.current_url == "http://192.168.1.254/":
+            if driver.current_url != "http://192.168.1.254/wan_config_glb.cgi":
                 init()
-            i = 0
+            i = 1
         print("Trying to Get New IP...")
         checkbox = driver.find_element(By.NAME,"conn_en")
         checkbox.click()
